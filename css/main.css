@@ -11,7 +11,7 @@
 
 /* HEADER */
 .header {
-    background-image: url("/../images/background.jpg");
+    background-image: url("../images/background.jpg");
 }
 .header img {
     margin: auto 0;
