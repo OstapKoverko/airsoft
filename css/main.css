@@ -1,51 +1,68 @@
 /* GENERAL STYLES */
-.container {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-.page-navigation, .main-section, .footer div {
+body {
+    max-width: 1024px;
     margin: 0 auto;
-	max-width: 960px;
+    background: url("../images/background2.jpg");
+}
+.container {
+    margin: 0 auto;
+	max-width: 900px;
+}
+.header {
+    background-image: url("../images/sniper2.jpg");
+    height: 400px;
+}
+.footer {
+    background-image: url("../images/background.png");
 }
 
 /* HEADER */
-.header, .footer {
-    background-image: url("../images/background.jpg");
+#logo, #page-navigation {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /*padding-top: 50px;*/
 }
-.header img {
+#logo img {
     margin: auto 0;
 }
-.header h1 {
+#logo h1 {
     font-family: 'Underdog', cursive;
     font-size: 50px;
     color: #bfff00;
     text-shadow: 0 0 15px red;
 }
-
-/* NAVIGATION */
-.page-navigation {
-    display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-}
-.page-navigation a {
-    text-decoration: none; 
+#page-navigation a {
+    text-decoration: none;
     color: white;
-    border-bottom-left-radius: 40%;
-    border-bottom-right-radius: 40%;
+    border: 1px solid white;
     padding: 20px;
-    background: linear-gradient(#004d00, white);
+    /*margin: 130px 10px 10px;*/
+    width: 170px;
+    border-radius: 15px;
+    text-align: center;
+    font-weight: bold;
 }
-.page-navigation a:hover {
+
+#page-navigation a:hover {
     color: red;
+    border-color: red;
 }
 
 /* MAIN */
-.main-section {
+main {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    position: relative;
+}
+#opacity {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    opacity: 0.7;
+    z-index: -1;
+    position: absolute;
 }
 
 /* FOOTER */
@@ -59,6 +76,7 @@
     font-size: larger;
     color: #bfff00;
     text-shadow: 2px 2px 1px black;
+    margin=top: 10px;
 }
 .footer div p {
     color: white;
