@@ -21,7 +21,7 @@ body {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    /*padding-top: 50px;*/
+/*    position: relative;*/
 }
 #logo img {
     margin: auto 0;
@@ -45,8 +45,9 @@ body {
 }
 
 #page-navigation a:hover {
-    color: red;
-    border-color: red;
+    color: #bfff00;
+    box-shadow: 0 0 25px #bfff00, 0 0 5px red;
+    /*border-color: red;*/
 }
 
 /* MAIN */
@@ -60,9 +61,18 @@ main {
     height: 100%;
     width: 100%;
     background-color: white;
-    opacity: 0.7;
+    opacity: 0.9;
     z-index: -1;
     position: absolute;
+}
+.main-section article {
+    padding: 20px;
+}
+article h2 {
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px green, 0 0 5px darkgreen;
+    /*text-shadow: 1px 1px 2px black, 0 0 25px #bfff00, 0 0 5px red;*/
 }
 
 /* FOOTER */
@@ -76,7 +86,7 @@ main {
     font-size: larger;
     color: #bfff00;
     text-shadow: 2px 2px 1px black;
-    margin=top: 10px;
+    margin-top: 10px;
 }
 .footer div p {
     color: white;
