@@ -1,0 +1,6 @@
+article div img {
+    float: left;
+    padding-right: 20px;
+    height: auto; /*not work*/
+    width: auto; /*not work*/
+} 
