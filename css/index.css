@@ -1,6 +1,30 @@
+article {
+    max-width: 700px;
+    position: relative;
+}
+#article {
+    padding: 20px;
+}
+aside {
+    max-width: 250px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
 article div img {
     float: left;
     padding-right: 20px;
     height: auto; /*not work*/
     width: auto; /*not work*/
-} 
+}
+aside a {
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px green, 0 0 5px darkgreen;
+}
+aside a img {
+    max-width: 250px;
+}
+    

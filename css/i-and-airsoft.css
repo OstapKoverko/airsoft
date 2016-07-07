@@ -1,4 +1,6 @@
-
+article {
+    padding: 20px;
+}
 #first {
     float: right;
     margin-left: 20px;

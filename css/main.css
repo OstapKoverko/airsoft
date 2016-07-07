@@ -4,6 +4,9 @@ body {
     margin: 0 auto;
     background: url("../images/background-body.jpg");
 }
+a {
+    text-decoration: none;
+}
 .container {
     margin: 0 auto;
 	max-width: 900px;
@@ -33,7 +36,6 @@ body {
     text-shadow: 0 0 15px red;
 }
 #page-navigation a {
-    text-decoration: none;
     color: white;
     border: 1px solid white;
     padding: 20px;
@@ -47,7 +49,6 @@ body {
 #page-navigation a:hover {
     color: #bfff00;
     box-shadow: 0 0 25px #bfff00, 0 0 5px red;
-    /*border-color: red;*/
 }
 
 /* MAIN */
@@ -57,16 +58,13 @@ main {
     flex-wrap: wrap;
     position: relative;
 }
-#opacity {
+.opacity {
     height: 100%;
     width: 100%;
     background-color: white;
     opacity: 0.8;
     z-index: -1;
     position: absolute;
-}
-.main-section article {
-    padding: 20px;
 }
 article h2 {
     text-align: center;
@@ -82,7 +80,6 @@ article h2 {
     flex-wrap: wrap;
 }
 .footer div a {
-    text-decoration: none;
     font-size: larger;
     color: #bfff00;
     text-shadow: 2px 2px 1px black;
