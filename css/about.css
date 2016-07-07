@@ -1,8 +1,9 @@
 article {
     padding: 20px;
 }
-article img {
+#article-head img {
     float: right;
+    width: 350px;
 }
 #aside {
     float: right;
