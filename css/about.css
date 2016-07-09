@@ -16,13 +16,7 @@ article {
     border-radius: 10%;
     padding: 10px;
     display: flex;
-    /*justify-content: space-between;*/
     flex-direction: column;
     flex-wrap: wrap;
     position: relative;
-}
-#links {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
 }
