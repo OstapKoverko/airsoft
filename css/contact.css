@@ -1,0 +1,29 @@
+article {
+    padding: 20px;
+}
+#forms {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+#messagers {
+    min-width: 50%;
+    
+}
+#email {
+    width: 300px;
+}
+#facebook {
+    margin-left: 25px;
+}
+#facebook img {
+    max-width: 24px;
+}
+#facebook a {
+    margin: auto 5px; 
+}
+#links {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
