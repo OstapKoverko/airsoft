@@ -49,6 +49,7 @@ a {
 #page-navigation a:hover {
     color: #bfff00;
     box-shadow: 0 0 25px #bfff00, 0 0 5px red;
+    background-color: rgba(0,0,0,0.3);
 }
 
 /* MAIN */
